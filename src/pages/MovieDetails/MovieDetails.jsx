@@ -1,7 +1,7 @@
 import { useEffect, Suspense } from 'react';
 import { useParams, Outlet, Link, useLocation } from 'react-router-dom';
 import s from './MovieDetails.module.css';
-import BackLink from '../../components/Ul/BackLink/BackLink';
+import BackLink from '../../components/BackLink/BackLink';
 import Container from '../../components/Ul/Container/Container';
 import { useMovie } from '../../context/useContext';
 
