@@ -1,0 +1,25 @@
+.header {
+    padding-left: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navLink {
+    margin-right: 15px;
+}
+
+.navText {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navLink.active {
+    color: grey;
+    background-color: orange;
+}

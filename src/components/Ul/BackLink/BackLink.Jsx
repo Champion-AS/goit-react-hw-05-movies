@@ -4,12 +4,15 @@ import { FaArrowLeft } from 'react-icons/fa';
 import s from './BackLink.module.css';
 import PropTypes from 'prop-types';
 
-export default function BackLink({ to, children }) {
-    return (
-        <Link to={to}>
-            <button className={s.button}> <FaArrowLeft className={s.arrow} />{children}</button>
-        </Link>
-    );
+function BackLink({ to, children }) {
+  return (
+    <Link to={to}>
+      <button className={s.button}>
+        <FaArrowLeft className={s.arrow} />
+        {children}
+      </button>
+    </Link>
+  );
 }
 
 BackLink.propTypes = {
@@ -17,3 +20,4 @@ BackLink.propTypes = {
   children: PropTypes.string.isRequired,
 };
 
+export default BackLink;

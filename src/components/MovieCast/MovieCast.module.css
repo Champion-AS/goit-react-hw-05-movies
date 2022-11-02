@@ -1,0 +1,24 @@
+.actorImg {
+    width: 200px;
+}
+
+.skeleton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 300px;
+    background-color: #ccc;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.castSection {
+    margin-top: 20px;
+}
+
+.itemThumb {
+    list-style: none;
+}
